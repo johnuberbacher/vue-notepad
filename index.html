@@ -30,7 +30,7 @@
               <textarea rows="3" class="form-control" v-model="note.text" required></textarea>
             </div>
             <button class="btn btn-primary" @click="addNote">Save Note</button>
-            <p class="non" v-bind:class="{ active: isActive }">All fields are Required</p>
+            <div class="alert alert-danger text-center" role="alert" v-bind:class="{ active: isActive }">All fields are Required</div>
           </div>
           <div class="row">
             <div class="col-sm-6 note" v-for="(note, index) in notes">

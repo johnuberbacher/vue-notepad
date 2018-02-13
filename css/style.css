@@ -33,7 +33,7 @@ p.card-text { margin: 25px 0px 0px 0px; }
 .card { 
   border-radius: 3px; 
   box-shadow: 0px 2px 3px rgb(217, 217, 217); }
-.non { display: none; }
+.alert { display: none; }
 .active { display: block; }
 .col-sm-12 > div {
   max-width: 600px;
