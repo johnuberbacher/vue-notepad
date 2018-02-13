@@ -1,0 +1,40 @@
+body { 
+  font-size: 14px;
+  min-width: 300px;
+  font-family: 'Ubuntu', sans-serif;
+  background: #f3f3f3;
+  margin: 0;
+  -webkit-user-select: none;
+  user-select: none;
+  padding: 70px 30px 0px 30px;
+  font-weight: 100; }.card {
+  margin: 20px 0;
+  background: #ffffff;
+  border: 10px;
+  padding: 20px; }
+button.btn { 
+  display: block; 
+  padding: 15px 20px;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 15px 0px;
+  width: 100%;
+  box-shadow: 0px 1px 3px rgb(217, 217, 217);
+  border: none; 
+  border-radius: 2px; }
+h1 { 
+  text-align: center; 
+  margin: 15px 0px; }
+h2 { 
+  text-align: center; 
+  margin: 15px 0px 30px 0px; 
+  color: #b5b5b5; }
+h4.card-title { margin: 5px 0px 15px 0px; }
+p.card-text { margin: 25px 0px 0px 0px; }
+.card { 
+  border-radius: 3px; 
+  box-shadow: 0px 2px 3px rgb(217, 217, 217); }
+.non { display: none; }
+.active { display: block; }
+.col-sm-12 > div {
+  max-width: 600px;
+  margin: 0px auto; }
